@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@700;800&family=Roboto&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+  line-height: 1.2;
+  background-color: #07203f;
+}
+
+.container {
+  max-width: 1570px;
+  width: 100%;
+  padding: 0px 15px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+
+header,
+footer {
+  text-transform: uppercase;
+  border-bottom: 1px solid #d9d9d9;
+  width: 100%;
+}
+
+.header-footer__container-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.nickname {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-footer__nav {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.logo-link {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.header-footer__nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+  padding: 27px 0;
+}
+
+.header-footer__nav-list li,
+a {
+  color: white;
+  list-style-type: none;
+}
+
+.footer__nav-list li a {
+  text-decoration-line: none;
+}
+
+.about-me__container {
+  background-color: #07203f;
+  padding: 117px 15px 116px;
+}
+
+.about-me__container-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-me__item {
+  max-width: 610px;
+  /* border: 1px solid red; */
+}
+
+.about-me__item-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+}
+
+.about-me__item-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #d9d9d9;
+}
+
+.about-me__item-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  color: #d9d9d9;
+  margin-bottom: 66px;
+  padding: 50px 0;
+}
+
+.about-me__item-btn,
+.contacts__list-btn {
+  display: block;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #d9d9d9;
+  border-radius: 100px;
+  width: 100%;
+  padding: 40px 0;
+  /*height: 120px; */
+}
+
+.contacts__list-btn {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 40px;
+  padding: 25px 0;
+}
+
+.about-me__item-btn:hover,
+.contacts__list-btn:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+
+.about-me__avatar-img {
+  width: 767px;
+  height: 767px;
+  border-radius: 50%;
+}
+
+.skills-contacts {
+  padding: 100px 0 249px;
+  background-color: #eaded4;
+}
+
+.skills-contacts__title {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.skills-contacts__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.skills-contacts__list {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 72px;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-contacts {
+  display: inline-block;
+  padding: 130px 35px 0;
+}
+
+.contacts__list-wraper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 70px;
+  /* border: 1px solid red; */
+}
+
+.skills-contacts__list:nth-child(2n + 1) {
+  background-color: #07203f;
+}
+.skills-contacts__list:nth-child(2) {
+  background-color: #d9aa90;
+}
+
+.my-projects__container {
+  padding: 100px 15px 204px 15px;
+}
+
+.my-projects__title {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 72px;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.items-wraper {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+.items-wrap {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+}
+
+.item-img img {
+  width: 760px;
+  height: 516px;
+}
+
+.item-inner {
+  padding: 110px 0 0 0;
+  width: 605px;
+  /* border: 1px solid red; */
+}
+.item-inner__title {
+  font-family: "Montserrat";
+  font-weight: 800;
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #d9d9d9;
+  margin-bottom: 20px;
+}
+.item-inner__text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 36px;
+  color: #d9d9d9;
+}
+.item2 {
+  flex-direction: row-reverse;
+}
+
+.link-phone {
+  text-decoration: none;
+  color: #000000;
+}
+
+@media (max-width: 1560px) {
+  .header-footer__nav-list {
+    flex-direction: column;
+  }
+
+  .about-me__container-wrap {
+    flex-direction: column;
+  }
+  .about-me__avatar-img {
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+  }
+
+  .skills-contacts__wrap {
+    flex-direction: column;
+  }
+
+  .item-inner {
+    padding: 0;
+  }
+
+  .items-wraper {
+    gap: 80px;
+  }
+
+  .items-wrap {
+    flex-direction: column-reverse;
+    gap: 40px;
+    /* align-items: center; */
+    /* padding: 0 80px 0; */
+  }
+  .my-projects__container {
+    padding: 100px 50px 204px;
+  }
+
+  .item2 {
+    text-align: right;
+  }
+
+  .item-inner2 {
+    position: relative;
+    left: 233px;
+  }
+
+  .item-img1,
+  .item-img3 {
+    padding: 0 0 0 80px;
+  }
+
+  .item-img2 {
+    padding: 0 80px 0 0;
+  }
+}
+
+/* @media screen and (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    width: 100%;
+    padding: 20px 0;
+    margin: 0 auto;
+  }
+} */
